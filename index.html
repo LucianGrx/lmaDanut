@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La multi ani Danut</title>
+    <!---------------  CSS  --------------------->
+    <link rel="stylesheet" href="style.css">
+    <!---------------  Font Aewsome  --------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---------------  Chart JS  --------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!---------------  Chart JS Plugin  --------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script> 
+</head>
+<body>
+    <div id="countdown">
+        <p id="time">00:00:00</p>
+    </div>
+    <div id="message" style="display: none;">
+        <h1>Indiferent cat de mare vei creste si vei fi mereu vei fi fratele meu mai mic! Te iubesc si la multi ani!</h1>
+    </div>
+  <div class="container">
+     <div class="wheel_box">
+      <canvas id="spinWheel"></canvas>
+      <button id="spin_btn">Spin</button>
+      <i class="fa-solid fa-location-arrow"></i>
+     </div> 
+    <div id="text"><p>Wheel Of Fortune</p></div>
+  </div>
+  <!---------------  SCRIPT  --------------------->
+  <script src="clock.js"></script>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script> 
+</body>   
+</html>
